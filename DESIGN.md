@@ -1,7 +1,7 @@
 # Portfolio design direction
 
 ## Purpose
-Russian portfolio for HR and design leads. The home page should make role, seniority and two relevant projects clear in a quick scan. Detailed evidence lives on separate project pages.
+Russian portfolio for HR and design leads. The home page should make identity, role, seniority and three relevant projects clear in a quick scan. Detailed evidence lives on separate project pages.
 
 ## Reference sources
 Reviewed the twelve Refero style references supplied by Roman. Main direction:
@@ -15,12 +15,12 @@ The reference systems informed local CSS tokens; this is an independent portfoli
 - Canvas #faf9f6; ink #20211f; secondary text #646560; border #deded8.
 - Accent #3447da only for focus/interaction. Screens supply the other colors.
 - Manrope, local Latin/Cyrillic font files, OFL license included.
-- Content max-width 1240px. Grid: 2 project columns, 4 compact UI previews.
+- Content max-width 1240px. Grid: 3 product columns, 4 compact UI previews; 2 columns in the full gallery.
 - 8px media corners; 5px controls. No ornamental shadows or gradients.
 - Display 46–100px, body 16–21px, functional metadata 13–14px.
 
 ## Content and interaction
-- Home: identity, two case cards, four UI previews, contacts.
+- Home: portrait, identity, three case cards, four UI previews, contacts.
 - Cases: final screens first; responsibility, design decisions, expandable research.
 - Images: native dialog, zoom, previous/next, Escape, original-image link.
 - HTML links and research details work without JavaScript.

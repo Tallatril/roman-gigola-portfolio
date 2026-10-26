@@ -16,7 +16,13 @@ document.addEventListener('click', event => {
   if (!event.target.closest('.site-header')) closeMenu();
 });
 
-const links = [...document.querySelectorAll('[data-lightbox]')];
+const allLinks = [...document.querySelectorAll('[data-lightbox]')];
+let links = allLinks;
+document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {
+  document.querySelectorAll('[data-filter]').forEach(b => b.setAttribute('aria-pressed', String(b === button)));
+  document.querySelectorAll('[data-kind]').forEach(card => { card.hidden = button.dataset.filter !== 'all' && card.dataset.kind !== button.dataset.filter; });
+  links = allLinks.filter(link => !link.closest('[hidden]'));
+}));
 if (links.length && typeof HTMLDialogElement !== 'undefined') {
   const dialog = document.createElement('dialog');
   dialog.className = 'lightbox';
@@ -41,11 +47,11 @@ if (links.length && typeof HTMLDialogElement !== 'undefined') {
     dialog.querySelector('.viewer-original').href = link.href;
     stage.scrollTo(0, 0);
   }
-  links.forEach((link, index) => link.addEventListener('click', event => {
+  allLinks.forEach(link => link.addEventListener('click', event => {
     if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
     event.preventDefault();
     opener = link;
-    show(index);
+    show(links.indexOf(link));
     dialog.showModal();
     document.body.classList.add('viewer-open');
     dialog.querySelector('.close-viewer').focus();
