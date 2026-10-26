@@ -27,9 +27,11 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Prepare static site
         run: |
-          mkdir -p _site/assets
-          cp index.html styles.css .nojekyll _site/
+          mkdir -p _site/assets/fonts
+          cp index.html dobro.html fanza.html ui.html about.html portfolio.css site.js .nojekyll _site/
           cp assets/*.webp assets/roman-gigola-cv.pdf _site/assets/
+          cp assets/favicon.svg _site/assets/
+          cp assets/fonts/*.woff2 assets/fonts/fonts.css assets/fonts/OFL.txt _site/assets/fonts/
       - name: Upload site
         uses: actions/upload-pages-artifact@v4
         with:

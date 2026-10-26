@@ -1,0 +1,28 @@
+# Portfolio design direction
+
+## Purpose
+Russian portfolio for HR and design leads. The home page should make role, seniority and two relevant projects clear in a quick scan. Detailed evidence lives on separate project pages.
+
+## Reference sources
+Reviewed the twelve Refero style references supplied by Roman. Main direction:
+- [Intercom](https://styles.refero.design/style/12255b63-e506-4bc1-a4cd-d05487de32f3): warm light canvas, restrained typography, flat surfaces.
+- [Vercel](https://styles.refero.design/style/f24daf3a-d43f-4dec-85a9-8ac1d5148a03): clear hierarchy, hairline rules, compact navigation.
+- [ElevenLabs](https://styles.refero.design/style/031056ff-7af1-46db-8daa-115f731c5d26): color in project imagery, quiet page chrome.
+
+The reference systems informed local CSS tokens; this is an independent portfolio, not an exact reproduction of those websites. No proprietary typefaces or brand marks are used.
+
+## Tokens
+- Canvas #faf9f6; ink #20211f; secondary text #646560; border #deded8.
+- Accent #3447da only for focus/interaction. Screens supply the other colors.
+- Manrope, local Latin/Cyrillic font files, OFL license included.
+- Content max-width 1240px. Grid: 2 project columns, 4 compact UI previews.
+- 8px media corners; 5px controls. No ornamental shadows or gradients.
+- Display 46–100px, body 16–21px, functional metadata 13–14px.
+
+## Content and interaction
+- Home: identity, two case cards, four UI previews, contacts.
+- Cases: final screens first; responsibility, design decisions, expandable research.
+- Images: native dialog, zoom, previous/next, Escape, original-image link.
+- HTML links and research details work without JavaScript.
+- Keep claims specific. Separate survey preferences from production conversion and pilot before/after from causal attribution.
+- Preserve readable body copy on mobile; avoid extra slogans, decorative labels and repeated disclaimers.
