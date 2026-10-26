@@ -13,7 +13,7 @@ The reference systems informed local CSS tokens; this is an independent portfoli
 
 ## Tokens
 - Canvas #faf9f6; ink #20211f; secondary text #646560; border #deded8.
-- Accent #3447da only for focus/interaction. Screens supply the other colors.
+- Accent #3447da for focus, interaction and the linked pilot result on mobile. Screens supply the other colors.
 - Manrope, local Latin/Cyrillic font files, OFL license included.
 - Content max-width 1240px. Grid: 3 product columns, 4 compact UI previews; 2 columns in the full gallery.
 - 8px media corners; 5px controls. No ornamental shadows or gradients.
@@ -28,3 +28,11 @@ The reference systems informed local CSS tokens; this is an independent portfoli
 - HTML links and research details work without JavaScript.
 - Keep claims specific. Separate survey preferences from production conversion and pilot before/after from causal attribution.
 - Preserve readable body copy on mobile; avoid extra slogans, decorative labels and repeated disclaimers.
+
+## Mobile
+- One responsive block for screens up to 760px, with 16–20px page gutters and a consistent 24/32/48px spacing rhythm.
+- Compact portrait beside the role; text and results remain the main focus. The about page uses the same introduction hierarchy.
+- Stacked before/after comparison. Full case artwork keeps its natural height; no hidden lower half of a presentation.
+- App screenshots use native horizontal scrolling with snap points, a visible next-screen preview and keyboard access. My Safe uses a dedicated mobile cover.
+- In-flow navigation, balanced filter grid and at least 44px targets for menu, filter, viewer and contact controls.
+- Fullscreen image viewer with safe-area spacing; original images and research disclosures remain accessible without JavaScript.

@@ -4,16 +4,37 @@ const navigation = document.querySelector('.site-nav');
 function closeMenu() {
   navigation?.classList.remove('is-open');
   menuButton?.setAttribute('aria-expanded', 'false');
+  if (menuButton) menuButton.textContent = 'Меню';
 }
 menuButton?.addEventListener('click', () => {
   const open = menuButton.getAttribute('aria-expanded') !== 'true';
   menuButton.setAttribute('aria-expanded', String(open));
+  menuButton.textContent = open ? 'Закрыть' : 'Меню';
   navigation.classList.toggle('is-open', open);
 });
 navigation?.addEventListener('click', event => { if (event.target.closest('a')) closeMenu(); });
-document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && menuButton?.getAttribute('aria-expanded') === 'true') {
+    closeMenu();
+    menuButton.focus();
+  }
+});
+window.matchMedia('(max-width: 760px)').addEventListener('change', closeMenu);
 document.addEventListener('click', event => {
   if (!event.target.closest('.site-header')) closeMenu();
+});
+
+document.querySelectorAll('.phone-grid').forEach(gallery => {
+  gallery.addEventListener('focusin', event => {
+    const link = event.target.closest('.media-link');
+    if (!link || gallery.scrollWidth <= gallery.clientWidth) return;
+    const frame = gallery.getBoundingClientRect();
+    const screen = link.getBoundingClientRect();
+    const padding = parseFloat(getComputedStyle(gallery).paddingLeft);
+    if (screen.left < frame.left + padding - 1 || screen.right > frame.right - padding + 1) {
+      gallery.scrollTo({left: gallery.scrollLeft + screen.left - frame.left - padding, behavior: 'instant'});
+    }
+  });
 });
 
 const allLinks = [...document.querySelectorAll('[data-lightbox]')];
