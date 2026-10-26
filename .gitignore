@@ -1,0 +1,7 @@
+assets/*.png
+build_assets.py
+_site/
+preview-*.png
+Thumbs.db
+.DS_Store
+
