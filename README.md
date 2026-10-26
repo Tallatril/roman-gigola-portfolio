@@ -2,7 +2,7 @@
 
 [Открыть портфолио](https://tallatril.github.io/roman-gigola-portfolio/) · [Резюме](assets/roman-gigola-cv.pdf) · [Telegram](https://t.me/gigolaroman)
 
-Адаптивное портфолио на русском языке для GitHub Pages: 14 статических страниц, CSS и небольшой JavaScript для просмотра макетов и фильтрации работ. Сборщик не нужен. Шрифт Manrope хранится локально, лицензия OFL включена.
+Адаптивное портфолио на русском языке для GitHub Pages: 14 страниц и перенаправление со старой галереи, CSS и небольшой JavaScript для просмотра макетов и фильтрации работ. Сборщик не нужен. Шрифт Manrope хранится локально, лицензия OFL включена.
 
 Содержание: Добро.рф, Fanza Fusion, My Safe Online, шесть проектов Lumex Agency, игровой концепт для Альфа-Банка, Tempick KIDS, примеры UI, опыт и контакты. Визуалы взяты из Figma автора, опубликованных кейсов команды Lumex и сайта NXTarmor. Все права на изображения и бренды принадлежат их владельцам. Источники перечислены в `SOURCES.md`.
 
@@ -25,8 +25,9 @@
 - `dobro.html`, `fanza.html`, `mysafe.html` — продуктовые кейсы.
 - `nomad.html`, `nxtarmor.html`, `nova.html`, `serene.html`, `omakase.html`, `barber.html` — сайты Lumex Agency.
 - `dragon.html`, `tempick.html` — игровой и мобильный интерфейсы Seven Winds Studio.
-- `ui.html` — галерея интерфейсов.
-- `about.html` — опыт и образование.
+- `projects.html` — общий каталог 16 проектов с фильтрами.
+- `ui.html` — переход со старого адреса в общий каталог.
+- `about.html` — опыт, достижения, награды и образование.
 - `portfolio.css` — оформление и адаптивы.
 - `site.js` — мобильное меню, увеличение и переключение макетов.
 - `assets/*.webp` — изображения проектов.
