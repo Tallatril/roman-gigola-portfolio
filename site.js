@@ -27,7 +27,7 @@ if (links.length && typeof HTMLDialogElement !== 'undefined') {
   const dialog = document.createElement('dialog');
   dialog.className = 'lightbox';
   dialog.setAttribute('aria-labelledby', 'viewer-title');
-  dialog.innerHTML = `<div class="lightbox-bar"><p class="lightbox-title" id="viewer-title"></p><div class="lightbox-controls"><button type="button" class="viewer-prev" aria-label="Предыдущее изображение">←</button><button type="button" class="viewer-next" aria-label="Следующее изображение">→</button><button type="button" class="viewer-zoom" aria-pressed="false">Увеличить</button><a class="viewer-original" target="_blank" rel="noopener">Оригинал ↗</a><button type="button" class="close-viewer" aria-label="Закрыть изображение">×</button></div></div><div class="lightbox-stage"><img alt=""></div>`;
+  dialog.innerHTML = `<div class="lightbox-bar"><p class="lightbox-title" id="viewer-title"></p><div class="lightbox-controls"><button type="button" class="viewer-prev" aria-label="Предыдущее изображение">←</button><button type="button" class="viewer-next" aria-label="Следующее изображение">→</button><button type="button" class="viewer-zoom" aria-pressed="false">Увеличить</button><a class="viewer-original" target="_blank" rel="noopener">Оригинал</a><button type="button" class="close-viewer" aria-label="Закрыть изображение">×</button></div></div><div class="lightbox-stage"><img alt=""></div>`;
   document.body.append(dialog);
   const img = dialog.querySelector('img');
   const zoom = dialog.querySelector('.viewer-zoom');

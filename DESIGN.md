@@ -20,7 +20,9 @@ The reference systems informed local CSS tokens; this is an independent portfoli
 - Display 46–100px, body 16–21px, functional metadata 13–14px.
 
 ## Content and interaction
-- Home: portrait, identity, three case cards, four UI previews, contacts.
+- Home: role and scope of work first, supported by named products, team leadership and measured pilot results; portrait, three case cards, four UI previews, contacts.
+- No decorative northeast arrows on links or image overlays. No repeated name, year or location in the footer.
+- Introduction references: https://www.toloknova.com/ and https://jupels.github.io/portfolio/index.html — role, relevant experience and proof visible immediately; wording uses Roman's own verified experience.
 - Cases: final screens first; responsibility, design decisions, expandable research.
 - Images: native dialog, zoom, previous/next, Escape, original-image link.
 - HTML links and research details work without JavaScript.
