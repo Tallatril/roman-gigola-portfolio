@@ -15,13 +15,14 @@ The reference systems informed local CSS tokens; this is an independent portfoli
 - Canvas #ffffff; ink #1c1c1c; secondary text #626262; border #e2e2e2; surface #f3f3f3.
 - Monochrome focus and hover #404040, with underlines for text links. Color belongs to project artwork only.
 - Manrope, local Latin/Cyrillic font files, OFL license included.
-- Content max-width 1240px. Grid: 3 product columns, 4 compact UI previews; 2 columns in the full gallery.
+- Content max-width 1240px. Grid: 2 product columns, 4 compact previews; 2 columns in the full gallery.
 - 8px media corners; 5px controls. No ornamental shadows or gradients.
 - Home display 28–56px; body 16–20px. Relaxed tracking and separate product/team paragraphs support scanning.
 
 ## Content and interaction
 - Home: role and scope of work first, named products, team leadership, two facts, portrait, selected projects and contacts. Pilot results stay inside the Dobro project, not the hero.
-- One Projects catalogue contains all 16 works with Products / Sites / Games filters. The former UI URL redirects to it and preserves project anchors.
+- One Projects catalogue contains all 17 works with Products / Sites / Games filters. The former UI URL redirects to it and preserves project anchors.
+- Four selected product cases use a 2-column grid: Dobro, Pragmacore, Fanza and My Safe. Website/game previews share centred 16:9 windows, equal outer frames and consistent insets.
 - About: introduction, leadership achievements, experience, project awards, education and a direct certificate link. Project awards are attributed to Pragmacore, not presented as personal prizes.
 - No decorative northeast arrows on links or image overlays. No repeated name, year or location in the footer.
 - Introduction references: https://www.toloknova.com/ and https://jupels.github.io/portfolio/index.html — role, relevant experience and proof visible immediately; wording uses Roman's own verified experience.

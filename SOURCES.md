@@ -19,6 +19,8 @@ The portrait was generated with image_gen using Roman's own photographs and publ
 
 ## Profile credentials
 
+- Pragmacore project cover: the studio's public Core image, https://static.tildacdn.com/tild3433-6262-4766-b035-326232323735/core.jpg , linked from https://7winds.mobi/portfolio/pragmacore-case . QC table: Roman's own Figma frame, exported read-only for this case. The personal contribution text comes from the resume/case material approved by Roman on 26 October 2026.
+
 - Pragmacore: RUWARD AWARD 2023, silver in Case of the Year / Digital Integration; Workspace Digital Awards 2023, second place in IT Technologies and Online Services. Verified against the studio's published case: https://workspace.ru/cases/pragmacore-razrabotka-edinoy-platformy-dlya-upravleniya-stroitelstvom/ . Awards belong to the project; Roman contributed UX/UI in Seven Winds Studio.
 - GeekBrains, Fullstack Design, 2021: https://gb.ru/certificates/1385028?ae1b75a9e9871e07d05063cf5bc82150# . Course title and completion are from Roman's existing resume/profile; two-year duration was supplied in the resume chat.
 - Three designers progressing from Junior to Middle in six months and Web Design Awards finalist in two consecutive years are from Roman's supplied resume. No unsupported award years or ranking have been added.

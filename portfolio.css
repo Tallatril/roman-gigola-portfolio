@@ -281,3 +281,21 @@ body { font-variant-numeric: lining-nums; }
 /* Dragon: preserve the supplied cover composition. */
 a[href="dragon.html"] .mini-cover img,
 #dragon .work-cover img { object-fit: contain; object-position: center; }
+
+/* Featured projects and aligned case covers. */
+.section-intro { align-items: center; }
+.project-grid.featured { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 36px 28px; }
+.featured .project-cover { display: flex; align-items: center; justify-content: center; aspect-ratio: 1.6; padding: 24px; background: var(--surface); }
+.featured .project-cover img { width: 100%; height: 100%; object-fit: contain; object-position: center; border: 0; border-radius: 4px; }
+.mini-cover, #nomad .work-cover, #nxtarmor .work-cover, #nova .work-cover, #dragon .work-cover { display: flex; align-items: center; justify-content: center; aspect-ratio: 4/3; padding: 16px; background: var(--surface); }
+.cover-window { display: block; width: 100%; aspect-ratio: 16/9; overflow: hidden; border-radius: 4px; }
+.cover-window img, a[href="dragon.html"] .mini-cover .cover-window img, #dragon .work-cover .cover-window img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; }
+a[href="nova.html"] .mini-cover .cover-window img, #nova .work-cover .cover-window img { object-fit: cover; object-position: top; }
+.mini-card:hover .cover-window img, .work-cover:hover .cover-window img { transform: none; }
+.case-source { margin-top: 24px; }
+@media (max-width: 760px) {
+  .project-grid.featured { grid-template-columns: 1fr; gap: 36px; }
+  .featured .project-cover { aspect-ratio: 1.5; padding: 16px; }
+  .mini-cover { padding: 8px; }
+  #nomad .work-cover, #nxtarmor .work-cover, #nova .work-cover, #dragon .work-cover { padding: 16px; }
+}
