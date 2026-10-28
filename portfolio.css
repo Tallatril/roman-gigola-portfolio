@@ -277,3 +277,7 @@ body { font-variant-numeric: lining-nums; }
   .hero-with-portrait .hero-facts strong { font-size: 23px; }
   .profile-row-heading { flex-wrap: wrap; gap: 4px 16px; }
 }
+
+/* Dragon: preserve the supplied cover composition. */
+a[href="dragon.html"] .mini-cover img,
+#dragon .work-cover img { object-fit: contain; object-position: center; }

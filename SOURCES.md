@@ -6,6 +6,8 @@ Author supplied the work and authorized publication in this portfolio.
 - My Safe Online: https://www.figma.com/design/UUq6crdePhZF1hOo2tRQDT/
 - Tempick: https://www.figma.com/design/oKvgAS7bxBa5Zq1jjTJvUz/Elamed
 - Alfa-Bank design exploration: https://www.figma.com/design/63fLpRPTpNowXUmZCiihcs/
+- Alfa-Bank Dragon final cover, onboarding and gameplay: three screenshots supplied by Roman on 27 October 2026; encoded as lossless WebP without cropping or changing pixels. Early prototypes remain in a separate collapsed section.
+- Dragon project context and first-14-day results: https://workspace.ru/cases/geymifikaciya-v-fintehe-mobilnaya-igra-dlya-alfa-banka-drakon/ . Public studio case reports 7 average returns, 1.5-minute average session and 25,000 peak concurrent players. These are project results, not attributed solely to Roman. The case credits final visual design to the bank's team and game design/implementation to Seven Winds Studio.
 - Nomad Nirvana: https://www.behance.net/gallery/223151871/Wellness-SPA-Salon-website-design-UIUX
 - Nova Pixels: https://www.behance.net/gallery/222429739/Design-Site-Creative-Agency-Nova-Pixels
 - Serene Luxe: https://www.behance.net/gallery/226745981/Nails-Salon-Website-Serene-Luxe
